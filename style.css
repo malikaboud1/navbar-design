@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 160px;
+    height: 100vh;
+    background-color: crimson;
+    color: white;
+}
+.container ul{
+    padding: 10px 0px;
+    text-align: center;  
+}
+.container ul li{
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.container ul li:hover, button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+button{
+    background-color: crimson;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 20px;  
+}
+#close{
+    position: absolute;
+    left: 165px;
+}
+.hide{
+    display: none;
+}
